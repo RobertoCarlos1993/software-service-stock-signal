@@ -14,10 +14,9 @@
     "react-stripe-checkout": "^2.6.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start:dev": "REACT_APP_STAGE=dev react-scripts start",
+    "start:prod": "REACT_APP_STAGE=prod react-scripts start",
+    "build": "REACT_APP_STAGE=dev react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
