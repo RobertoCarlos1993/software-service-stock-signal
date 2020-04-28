@@ -1,6 +1,6 @@
 import config from "../../config";
 
-const URL = config.BILL_API;
+const URL = config.CONFIRMATION_API;
 const API_KEY = config.API_KEY;
 
 export default async ({ to }) => {
